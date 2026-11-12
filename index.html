@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f3ef" />
+    <title>ATELIER — Curated Essentials</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="announcement">
+      COMPLIMENTARY SHIPPING ON ORDERS OVER $150 <span>✦</span> THOUGHTFULLY
+      CURATED, ALWAYS
+    </div>
+    <header class="header">
+      <a class="logo" href="#">ATELIER<span>.</span></a>
+      <nav class="nav">
+        <a href="#shop">Shop</a><a href="#story">Our story</a
+        ><a href="#journal">Journal</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn search-toggle" aria-label="Search">⌕</button
+        ><button class="bag-btn" id="bagButton">
+          Bag <span id="cartCount">0</span></button
+        ><button class="menu-toggle" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">THE ART OF EVERYDAY LIVING</p>
+          <h1>Objects with<br /><em>intention.</em></h1>
+          <p class="hero-desc">
+            A considered collection of timeless pieces for a life well lived.
+            Designed to be used, loved, and kept.
+          </p>
+          <a class="button dark-button" href="#shop"
+            >Explore the collection <span>↗</span></a
+          >
+          <div class="hero-note">
+            <span>01 — 03</span><i></i><span>THE NEW EDITION</span>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-image-label">
+            THE SLOW LIVING COLLECTION<br /><b>Designed for the everyday.</b>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-row">
+        <span>CONSIDERED DESIGN</span><b>✳</b><span>RESPONSIBLY SOURCED</span
+        ><b>✳</b><span>MADE TO LAST</span><b>✳</b><span>LESS, BUT BETTER</span>
+      </section>
+
+      <section class="shop-section section" id="shop">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">THE STORE</p>
+            <h2>Shop the <em>edit.</em></h2>
+          </div>
+          <p>
+            Useful things, beautifully made.<br />Find your new everyday
+            favorite.
+          </p>
+        </div>
+        <div class="filters">
+          <button class="filter active" data-filter="all">All pieces</button
+          ><button class="filter" data-filter="home">Home</button
+          ><button class="filter" data-filter="accessories">Accessories</button
+          ><button class="filter" data-filter="wear">Wear</button>
+        </div>
+        <div class="product-grid">
+          <article
+            class="product-card"
+            data-category="home"
+            data-name="Sculpted Ceramic Vase"
+            data-price="68"
+          >
+            <div class="product-image p1">
+              <span class="product-tag">BESTSELLER</span
+              ><button class="quick-add">+ Quick add</button>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Sculpted Ceramic Vase</h3>
+                <p>Sandstone · Handmade</p>
+              </div>
+              <strong>$68</strong>
+            </div>
+          </article>
+          <article
+            class="product-card"
+            data-category="accessories"
+            data-name="Everyday Leather Tote"
+            data-price="124"
+          >
+            <div class="product-image p2">
+              <span class="product-tag">NEW</span
+              ><button class="quick-add">+ Quick add</button>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Everyday Leather Tote</h3>
+                <p>Caramel · Full-grain leather</p>
+              </div>
+              <strong>$124</strong>
+            </div>
+          </article>
+          <article
+            class="product-card"
+            data-category="home"
+            data-name="Ribbed Glass Set"
+            data-price="42"
+          >
+            <div class="product-image p3">
+              <button class="quick-add">+ Quick add</button>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Ribbed Glass Set</h3>
+                <p>Set of 2 · Clear glass</p>
+              </div>
+              <strong>$42</strong>
+            </div>
+          </article>
+          <article
+            class="product-card"
+            data-category="wear"
+            data-name="Relaxed Linen Shirt"
+            data-price="89"
+          >
+            <div class="product-image p4">
+              <button class="quick-add">+ Quick add</button>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Relaxed Linen Shirt</h3>
+                <p>Natural · European linen</p>
+              </div>
+              <strong>$89</strong>
+            </div>
+          </article>
+          <article
+            class="product-card"
+            data-category="home"
+            data-name="Minimal Table Lamp"
+            data-price="156"
+          >
+            <div class="product-image p5">
+              <button class="quick-add">+ Quick add</button>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Minimal Table Lamp</h3>
+                <p>Warm white · Matte finish</p>
+              </div>
+              <strong>$156</strong>
+            </div>
+          </article>
+          <article
+            class="product-card"
+            data-category="accessories"
+            data-name="Essential Daily Pouch"
+            data-price="38"
+          >
+            <div class="product-image p6">
+              <button class="quick-add">+ Quick add</button>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Essential Daily Pouch</h3>
+                <p>Olive · Organic cotton</p>
+              </div>
+              <strong>$38</strong>
+            </div>
+          </article>
+        </div>
+        <p class="demo-note">
+          Demo storefront — product details and prices are sample content.
+        </p>
+      </section>
+
+      <section class="story-section" id="story">
+        <div class="story-photo"></div>
+        <div class="story-copy">
+          <p class="eyebrow">A MORE MINDFUL WAY</p>
+          <h2>Keep what<br /><em>matters.</em></h2>
+          <p>
+            We believe the best things earn their place in your life. That is
+            why we seek out thoughtful materials, honest craftsmanship, and
+            enduring forms.
+          </p>
+          <a class="under-link" href="#journal"
+            >Read our story <span>↗</span></a
+          >
+        </div>
+      </section>
+
+      <section class="newsletter section" id="journal">
+        <p class="eyebrow">A NOTE FROM ATELIER</p>
+        <h2>Good things, <em>occasionally.</em></h2>
+        <p>New arrivals, thoughtful ideas, and little things worth sharing.</p>
+        <form id="newsletterForm">
+          <input
+            type="email"
+            placeholder="Your email address"
+            required
+          /><button type="submit">Join the list ↗</button>
+        </form>
+        <small id="newsletterMessage">No noise. Just the good stuff.</small>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="logo" href="#">ATELIER<span>.</span></a>
+      <p>Thoughtfully chosen. Made to be kept.</p>
+      <span>© 2026 ATELIER STUDIO</span>
+    </footer>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag">
+      <div class="cart-head">
+        <h2>Your bag <span id="drawerCount">(0)</span></h2>
+        <button id="closeCart" aria-label="Close bag">×</button>
+      </div>
+      <div id="cartItems" class="cart-items">
+        <p class="empty-cart">Your bag is waiting for something lovely.</p>
+      </div>
+      <div class="cart-bottom">
+        <div><span>Subtotal</span><strong id="cartTotal">$0</strong></div>
+        <button class="button dark-button checkout-button" id="checkoutButton">
+          Continue to checkout ↗</button
+        ><small>Checkout is a demo interaction.</small>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim"></div>
+    <div class="toast" id="toast">Added to your bag</div>
+    <script src="script.js"></script>
+  </body>
+</html>
